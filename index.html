@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b0d9914f36.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./responsive-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,11 +18,11 @@
 
 <body>
     <header class="max-width">
-        <nav class="nav-bar">
+        <nav class="nav-bar ">
             <img src="./style/images/logo.png" alt="logo" class="nav-img">
             <div class="nav-menu">
                 <div class="card-menu">
-                    <ul class="nav-lists">
+                    <ul class="nav-lists hidden">
                         <li class="nav-list"><a href="" class="nav-link">Home</a></li>
                         <li class="nav-list"><a href="" class="nav-link">Shop</a></li>
                         <li class="nav-list"><a href="" class="nav-link">Abut Us</a></li>
@@ -37,19 +38,22 @@
 
     <main class="max-width">
         <section class="banner">
-            <div class="banner-content">
+            <div class="banner-content ">
                 <h1 class="banner-title noto-serif-font "> <span class="always">ALWAYS </span>FRESH <br>FLOWERS</h1>
-                <p class="banner-description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-                
+                <p class="banner-description inter-font">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are
+                    perfect for any occasion. </p>
+
             </div>
-            <div class="banner-img">
+            <div class="banner-img ">
                 <img src="./style/images/hero-flower.png" alt="banner-img">
 
             </div>
         </section>
         <section class="plant-part">
             <h1 class="pant-title noto-serif-font "> <span class="always"> Our </span>Plants</h1>
-            <p class="plant-description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="plant-description inter-font">Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             <div class="pant-card inter-font">
                 <div class="card">
                     <img src="./style/images/sample-flower-image.png" alt="sample-flower" class="card-img">
@@ -94,54 +98,113 @@
                     <button class="card-button">ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./style/images/sample-flower-image.png" alt="" classsample-flower="card-img">
+                    <img src="./style/images/sample-flower-image.png" alt="sample-flower" class="card-img">
                     <p class="card-p1">Lily Blossom</p>
-                    <p class="card-p2">20 USD</p>
+                    <p class="card-p2">2 USD</p>
                     <button class="card-button">ADD TO CART</button>
                 </div>
             </div>
         </section>
 
-        <section class="plant-lover">
+        <section class="plant-lover ">
             <img src="./style/images/flower-store.png" alt="flower-storing by a gantle man" class="lover-img">
             <div class="lover-content">
                 <h1 class="lover-title noto-serif-font">Flower & Plants Lover</h1>
                 <ul class="lover-lists inter-font">
-                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                        From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                        From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="love-list">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                        From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 </ul>
             </div>
-            
+
         </section>
-        <img src="./style/images/trusted-badge.png" alt="badge here" class="badge-img">
+        <img src="./style/images/trusted-badge.png" alt="badge here" class="badge-img hidden">
 
 
         <section class="letest-deal">
-            <h1 class="deal-title noto-serif-font">Latest  Deals</h1>
-            <p class="deal-description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <h1 class="deal-title noto-serif-font"> Latest <span class="always"> Deals </span></h1>
+            <p class="deal-description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower
+                shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
             <div class="deal-content">
                 <div class="content1">
-                    <p class="con1-p1">60% Off | Bloom Plant</p>
-                    <p class="con1-p2">Shop Now</p>
+                    <div id="specil-grid">
+                        <p class="con1-p1">60% Off | Bloom Plant</p>
+                        <p class="con1-p2">Shop Now</p>
+
+                    </div>
                 </div>
                 <div class="content2">
-                    <div class="con2-p1">30% Off | Ana  Plant</div>
-                    <div class="con2-p2">Shop Now</div>
+                    <div>
+                        <div class="con2-p1">30% Off | Ana Plant</div>
+                        <div class="con2-p2">Shop Now</div>
+                    </div>
                 </div>
                 <div class="content3">
-                    <p class="con3-p1">25% Off | Zabo Plant</p>
-                    <p class="cpn3-p2">Shop Now</p>
+                    <div>
+                        <p class="con3-p1">25% Off | Zabo Plant</p>
+                        <p class="cpn3-p2">Shop Now</p>
+                    </div>
                 </div>
             </div>
         </section>
+
 
 
 
     </main>
 
     <footer>
+        <section class="colorfull hide">
+            <img src="./style/images/news-letter-bg.png" alt="" class="colorfull-img">
+            <div class="colorfull-content">
+                <div class="amne">
+                    <div class="header-div">
+                        <h1 class="colorfull-title noto-serif-font">Join the colorful Bunch</h1>
+                    </div>
+                    <input type="text" class="colorfull-input" placeholder="Write email">
+                    <button class="colorfull-button">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="foot ">
+            <div class="foot-continer">
+                <div class="containt-1">
+                    <img src="./style/images/logo.png" alt="logo">
+                    <p class="description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                </div>
+                <div class="containt-2">
+                    <ul class="contint-list-a">
+                        <li class="list-items"><a href="" class="containt-2-link">Home</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">About US</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Blog</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Faq</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Contact US</a></li>
+                    </ul>
+                </div>
+                <div class="containt-3">
+                    <ul class="contint-list-b">
+                        <li class="list-items"><a href="" class="containt-2-link">features</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">pricing US</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Privecy Policy</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Terms of service</a></li>
+                        <li class="list-items"><a href="" class="containt-2-link">Help center</a></li>
+                    </ul>
+                </div>
+                <div class="containt-4">
+                    <a href="#"><img src="./style/images/icon-facebook.png" alt="facrbook" class="continer-4-img "></a>
+                    <a href="#"><img src="./style/images/icon-linkedin.png" alt="linkedin" class="continer-4-img"></a>
+                    <a href="#"><img src="./style/images/icon-twitter.png" alt="twitter" class="continer-4-img"></a>
+                    <a href="#"><img src="./style/images/icon-youtube.png" alt="you tube" class="continer-4-img"></a>
+                </div>
+            </div>
+        </section>
+
+
 
     </footer>
 </body>

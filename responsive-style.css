@@ -1,0 +1,167 @@
+
+
+
+
+@media screen and (max-width: 576px) {
+    .hidden{
+        display: none !important;
+    }
+
+    .nav-bar{
+        
+       
+        gap: 400px;
+    }
+    .banner-content{
+        margin: 30px 16px;
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .nav-img{
+        width: 63px;
+        height: 38px;
+    }
+
+    /* banner design here */
+
+    .banner{
+        
+        flex-direction: column-reverse;
+
+    }
+
+
+    /* plant design here */
+
+    .plant-part{
+        margin-top: 65px;
+    }
+    .pant-title{
+        font-size: 24px;
+
+    }
+    .plant-description{
+        font-size: 14px;
+        margin: 30px 16px;
+    }
+    .pant-card {
+        grid-template-columns: repeat(2,50%);
+        column-gap: -120px;
+    }
+    .card-img{
+        width: 171px;
+        height: 340px;
+    }
+    .card-button{
+        width: 171px;
+        height: 45px;
+
+    }
+    
+
+    /* plant lover style here */
+
+
+    .plant-lover{
+        flex-direction: column;
+        margin: 41px 17px;
+    }
+
+    .lover-img{
+        width: 100%;
+    }
+    .lover-title{
+        font-size: 24px;
+        margin-top: -20px;
+
+    }
+    .lover-lists{
+        padding-left: 17px;
+    }
+    .love-list{
+        font-size: 14px;
+
+        
+    }
+
+
+    /* letest deals style here */
+
+    .letest-deal{
+        margin: 65px  30px;
+    }
+    .deal-title{
+        font-size: 24px;
+    }
+    .deal-description{
+        font-size: 14px;
+    }
+
+    .deal-content{
+        margin-top: -50px;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: calc(100% - 95%);
+    }
+
+
+    /* color full design here */
+
+
+    .colorfull-img{
+        width: 100%;
+        height: 276px;
+    }
+
+    .colorfull{
+        position: relative;
+    }
+    .amne{
+        position: absolute;
+        bottom: 80px;
+        right: 240px;
+
+        
+    }
+    .colorfull-button{
+        width: 90px;
+        height: 50px;
+        
+    }
+    .colorfull-input{
+        width: 100px;
+        border: 2px solid black;
+    }
+    .colorfull-title{
+        color: black;
+        font-size: 20px;
+
+
+    }
+
+
+    /* footer design here */
+
+
+    .foot-continer{
+        flex-direction: column;
+        margin-left: 30px;
+
+        
+    }
+
+    .description{
+        
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .containt-2{
+        margin-top: 20px;
+    }
+
+    
+}
