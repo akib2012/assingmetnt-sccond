@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F0F8FF;
 }
 
 
@@ -211,6 +212,7 @@ i {
 }
 
 .badge-img {
+    background-color: transparent;
     position: relative;
     left: 400px;
     bottom: 730px;
@@ -292,8 +294,8 @@ i {
 
 
 .content3 {
-    width: 367px;
-    height: 201px;
+    width: 700px;
+    height: 430px;
     border-radius: 15px;
     background-image: url("./images/deal-zabo.png");
     display: flex;
@@ -302,7 +304,39 @@ i {
     color: white;
 
 }
+.inner-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
+
+.con3-p1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.con3-p2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.con1-p1{
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+.con1-p2{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
 
 
 /* colorfull part design here */
@@ -311,6 +345,8 @@ i {
     background-image: url("./images/news-letter-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
+    
 }
 
 .colorfull-content {
