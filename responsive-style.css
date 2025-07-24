@@ -1,35 +1,47 @@
-
-
-
-
 @media screen and (max-width: 576px) {
-    .hidden{
+    .hidden {
         display: none !important;
     }
 
-    .nav-bar{
-        
-       
-        gap: 400px;
+    .nav-bar {
+
+        justify-content: space-around;
+        gap: 200px;
+
     }
-    .banner-content{
+
+    .banner-content {
         margin: 30px 16px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 24px;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 14px;
     }
-    .nav-img{
+
+    .nav-img {
         width: 63px;
         height: 38px;
     }
 
+    .icon {
+
+        /* font-size: 22px; */
+        /* font-weight: 500; */
+
+    }
+
+
+
+
+
     /* banner design here */
 
-    .banner{
-        
+    .banner {
+
         flex-direction: column-reverse;
 
     }
@@ -37,131 +49,144 @@
 
     /* plant design here */
 
-    .plant-part{
+    .plant-part {
         margin-top: 65px;
     }
-    .pant-title{
+
+    .pant-title {
         font-size: 24px;
 
     }
-    .plant-description{
+
+    .plant-description {
         font-size: 14px;
         margin: 30px 16px;
     }
+
     .pant-card {
-        grid-template-columns: repeat(2,50%);
-        column-gap: -120px;
+        grid-template-columns: repeat(2, 50%);
+
+        /* column-gap: 20PX; */
+
     }
-    .card-img{
+
+    .card-img {
         width: 171px;
         height: 340px;
     }
-    .card-button{
+
+    .card-button {
         width: 171px;
         height: 45px;
 
     }
-    
+
 
     /* plant lover style here */
 
 
-    .plant-lover{
+    .plant-lover {
         flex-direction: column;
         margin: 41px 17px;
     }
 
-    .lover-img{
+    .lover-img {
         width: 100%;
     }
-    .lover-title{
+
+    .lover-title {
         font-size: 24px;
         margin-top: -20px;
 
     }
-    .lover-lists{
+
+    .lover-lists {
         padding-left: 17px;
     }
-    .love-list{
+
+    .love-list {
         font-size: 14px;
 
-        
+
     }
 
 
     /* letest deals style here */
 
-    .letest-deal{
-        margin: 65px  30px;
+    .letest-deal {
+        margin: 65px 30px;
     }
-    .deal-title{
+
+    .deal-title {
         font-size: 24px;
     }
-    .deal-description{
+
+    .deal-description {
         font-size: 14px;
     }
 
-    .deal-content{
+    .deal-content {
         margin-top: -50px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-left: calc(100% - 95%);
     }
 
 
     /* color full design here */
+    .colorfull-title {
+        font-size: 1.325rem;
+        color: white;
+        padding-top: 20%;
 
 
-    .colorfull-img{
-        width: 100%;
-        height: 276px;
     }
 
-    .colorfull{
-        position: relative;
-    }
-    .amne{
-        position: absolute;
-        bottom: 80px;
-        right: 240px;
+    .colorfull-button {
+        width: 30%;
 
+        margin-top: 20px;
+        height: 40px;
+        margin-bottom: 20%;
+        border: none;
+        margin-left: -4px;
+        background-color: #E95A08;
+        font-weight: 600;
+        color: white;
+
+    }
+
+
+    .colorfull-input {
+        width: 70%;
+        border: none;
+        height: 40px;
+        margin: 0px;
         
-    }
-    .colorfull-button{
-        width: 90px;
-        height: 50px;
-        
-    }
-    .colorfull-input{
-        width: 100px;
-        border: 2px solid black;
-    }
-    .colorfull-title{
-        color: black;
-        font-size: 20px;
-
 
     }
+
+
 
 
     /* footer design here */
 
 
-    .foot-continer{
+    .foot-continer {
         flex-direction: column;
         margin-left: 30px;
 
-        
+
     }
 
-    .description{
-        
+    .description {
+
         font-size: 16px;
         color: rgba(0, 0, 0, 0.5);
     }
 
-    .containt-2{
+    .containt-2 {
         margin-top: 20px;
     }
 
-    
+
 }

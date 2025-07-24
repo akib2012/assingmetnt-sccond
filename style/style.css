@@ -270,6 +270,7 @@ i {
 
 }
 
+
 .content3 {
     width: 367px;
     height: 201px;
@@ -286,60 +287,55 @@ i {
 
 /* colorfull part design here */
 
-.colorfull {
-    
-    position: relative;
-    
-
-
-}
-.colorfull-title{
-    font-size: 3.125rem;
-    font-weight: bold;
-    color: white;
-}
-.colorfull-input{
-    width: 644px;
-    height: 50px;
-    border: none;
-    padding-left: 20px;
-    
-}
-
-.colorfull-button{
-    width: 186px;
-    height: 50px;
-    margin-left: -10px;
-    padding-bottom: 2px;
-    background-color: #E95A08;
-    border: none;
-    font-weight: 800;
-    color: white;
-    
-}
-
-.colorfull-img{
-    width: 100%;
-    height: 533px;
+.colorfull{
+    background-image: url("./images/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
 .colorfull-content{
-    position: absolute;
-    left: 540px;
-    top: 280px;
-    
-    
+    display: flex;
+     justify-content: center;
+    align-items: center;
+
 }
 
-.amne{
-    position: relative;
+.colorfull-title {
+    font-size: 3.125rem;
+    color: white;
+    padding-top: 20%;
+
 }
 
-.header-div{
-    position: absolute;
-    bottom:  70px;
-    right: 110px;
+.colorfull-input{
+    width: 80%;
+    margin-left: -20px;
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+
 }
+
+.colorfull-button{
+    width: 20%;
+    
+    margin-top: 20px;
+    height: 50px;
+    margin-bottom: 20%;
+    border: none;
+    margin-left: -4px;
+    background-color: #E95A08;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+
+
+
 
 
 
