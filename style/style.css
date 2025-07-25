@@ -220,6 +220,7 @@ i {
     height: 270px;
     animation: spin 5s linear infinite;
     -webkit-animation: spin 5s linear infinite;
+    box-shadow: 5px 5px 20px black;
 }
 
 
@@ -274,17 +275,20 @@ i {
     height: 201px;
     border-radius: 15px;
     background-image: url("./images/deal-bloom.png");
+   
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
+
 .content2 {
     width: 367px;
     height: 201px;
     border-radius: 15px;
     background-image: url("./images/deal-ana.png");
+     
     display: flex;
     justify-content: center;
     align-items: center;
